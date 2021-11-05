@@ -11,7 +11,7 @@
 
 <body>
   <div id="unity-container" class="unity-desktop">
-    <canvas id="unity-canvas" width=1920 height=1080></canvas>
+    <canvas id="unity-canvas" width=960 height=540></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
       <div id="unity-progress-bar-empty">
@@ -35,9 +35,9 @@
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/129978d678383f70d301118a7945cf44.js";
     var config = {
-      dataUrl: buildUrl + "/b402715d68d8f7fd1f6ced05825d65af.data",
-      frameworkUrl: buildUrl + "/57f039f2c56711040b4d1c9e317f3d13.js",
-      codeUrl: buildUrl + "/f42f89baf210ff88347bda48e19a66ec.wasm",
+      dataUrl: buildUrl + "/56d140066996daae9ae6f3294c40ef18.data",
+      frameworkUrl: buildUrl + "/9d9d4514a4d29f45d195f7f65d070bc6.js",
+      codeUrl: buildUrl + "/f2b2e4ce7105dbaf1481c4d85517ae71.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "PossabilitiesWordSearch",
@@ -68,8 +68,8 @@
         mobileWarning.style.display = "none";
       }, 5000);
     } else {
-      canvas.style.width = "1920px";
-      canvas.style.height = "1080px";
+      canvas.style.width = "960px";
+      canvas.style.height = "540px";
     }
     loadingBar.style.display = "block";
 
