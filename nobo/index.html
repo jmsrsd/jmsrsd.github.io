@@ -32,14 +32,20 @@
 
   <title>nobo_flutter</title>
   <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
+  <div style="position: absolute; top: 50%; left: 50%; margin: -1.5em 0 0 -1.5em;">
+    <progress class="pure-material-progress-circular" />
+  </div>
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3079876754';
+    var serviceWorkerVersion = '3059426924';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {

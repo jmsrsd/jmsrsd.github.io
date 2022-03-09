@@ -60773,65 +60773,64 @@ A.Wf.prototype={
 $1(a){return this.Li(a)},
 Li(a9){var s=0,r=A.a_(t.H),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8
 var $async$$1=A.a0(function(b0,b1){if(b0===1)return A.X(b1,r)
-while(true)switch(s){case 0:a=$.AO()
+while(true)switch(s){case 0:c=$.AO()
 s=2
-return A.Q(A.acL(A.ie("https://jmsrsd-alfred-supabase.herokuapp.com/api/note?updated="+a9.f7(0,a,t.bc).ga_0())),$async$$1)
-case 2:a0=b1
-a1=t.N
+return A.Q(A.acL(A.ie("https://jmsrsd-alfred-supabase.herokuapp.com/api/note?updated="+a9.f7(0,c,t.bc).ga_0())),$async$$1)
+case 2:b=b1
+a=t.N
 s=3
-return A.Q($.eP().fL("note",a1),$async$$1)
-case 3:a2=b1
-a3=t.f
-a4=a3.a(B.a7.m_(0,A.a9x(A.a8z(a0.e).c.a.h(0,"charset")).d2(0,a0.x),null))
-a5=t.z
-a6=J.bC(a4)
-a7=t.j
-a8=a7.a(a6.eU(a4,a1,a5).h(0,"data"))
-A.b4(a6.eU(a4,a1,a5).h(0,"updated"))
-q=J.r8(a8,a1)
-a6=new A.c6(q,q.gl(q)),p=t.VO,o=t.XF,n=A.m(a6).c,m=a2.$ti.c
-case 4:if(!a6.t()){s=5
-break}l=n.a(a6.d)
+return A.Q($.eP().fL("note",a),$async$$1)
+case 3:a0=b1
+a1=t.f
+a2=a1.a(B.a7.m_(0,A.a9x(A.a8z(b.e).c.a.h(0,"charset")).d2(0,b.x),null))
+a3=t.z
+a4=J.bC(a2)
+a5=t.j
+a6=a5.a(a4.eU(a2,a,a3).h(0,"data"))
+a7=A.b4(a4.eU(a2,a,a3).h(0,"updated"))
+a8=J.r8(a6,a)
+a4=new A.c6(a8,a8.gl(a8)),q=t.VO,p=t.XF,o=A.m(a4).c,n=a0.$ti.c
+case 4:if(!a4.t()){s=5
+break}m=o.a(a4.d)
 s=6
-return A.Q(A.acL(A.ie(u.g+l)),$async$$1)
-case 6:k=b1
-j=A.agF(J.AS(a3.a(J.AS(a3.a(B.a7.m_(0,A.a9x(A.a8z(k.e).c.a.h(0,"charset")).d2(0,k.x),null)),a1,a5).h(0,"data")),a1,a5))
-i=j.a
+return A.Q(A.acL(A.ie(u.g+m)),$async$$1)
+case 6:l=b1
+k=A.agF(J.AS(a1.a(J.AS(a1.a(B.a7.m_(0,A.a9x(A.a8z(l.e).c.a.h(0,"charset")).d2(0,l.x),null)),a,a3).h(0,"data")),a,a3))
+j=k.a
 s=7
-return A.Q(a2.po(A.at([i,B.a7.oB(A.at(["id",i,"title",j.b,"content",j.c],a1,a5),null)],a5,m)),$async$$1)
-case 7:h=B.e.j(1000*Date.now())
-i=A.a(a9.d,"_container")
-if(i.cy)A.F(A.S(u.u))
-g=i.wp(a)
-i=g.e
-f=o.a(i==null?g.e=g.Ds():i)
-f.qK()
-if(f.ch){f.ch=!1
-f.qS()}f.qK()
-if(f.ch){f.ch=!1
-f.qS()}s=8
-return A.Q(J.aal(f.giX(),l,h),$async$$1)
-case 8:l=$.la()
-A.a(a9.d,"_container").jU(0,l,p)
+return A.Q(a0.po(A.at([j,B.a7.oB(A.at(["id",j,"title",k.b,"content",k.c],a,a3),null)],a3,n)),$async$$1)
+case 7:j=A.a(a9.d,"_container")
+if(j.cy)A.F(A.S(u.u))
+i=j.wp(c)
+j=i.e
+h=p.a(j==null?i.e=i.Ds():j)
+h.qK()
+if(h.ch){h.ch=!1
+h.qS()}h.qK()
+if(h.ch){h.ch=!1
+h.qS()}s=8
+return A.Q(J.aal(h.giX(),m,a7),$async$$1)
+case 8:m=$.la()
+A.a(a9.d,"_container").jU(0,m,q)
 s=4
 break
 case 5:s=9
 return A.Q(A.acL(A.ie(u.j)),$async$$1)
-case 9:e=b1
-d=a7.a(J.AS(a3.a(B.a7.m_(0,A.a9x(A.a8z(e.e).c.a.h(0,"charset")).d2(0,e.x),null)),a1,a5).h(0,"data"))
-a=A.a(a2.e,"keystore").c
-a3=a.$ti
-a3=a3.i("@<1>").aj(a3.Q[1]).i("yc<1,2>")
-a1=A.fX(new A.yc(a.a,a3),new A.Wd(),a3.i("k.E"),a1)
-a3=A.m(a1).i("aw<k.E>")
-c=A.aj(new A.aw(a1,new A.We(d),a3),!0,a3.i("k.E"))
-a=c.length,b=0
-case 10:if(!(b<a)){s=12
+case 9:g=b1
+f=a5.a(J.AS(a1.a(B.a7.m_(0,A.a9x(A.a8z(g.e).c.a.h(0,"charset")).d2(0,g.x),null)),a,a3).h(0,"data"))
+c=A.a(a0.e,"keystore").c
+a1=c.$ti
+a1=a1.i("@<1>").aj(a1.Q[1]).i("yc<1,2>")
+a=A.fX(new A.yc(c.a,a1),new A.Wd(),a1.i("k.E"),a)
+a1=A.m(a).i("aw<k.E>")
+e=A.aj(new A.aw(a,new A.We(f),a1),!0,a1.i("k.E"))
+c=e.length,d=0
+case 10:if(!(d<c)){s=12
 break}s=13
-return A.Q(a2.yB([c[b]]),$async$$1)
-case 13:a1=$.la()
-A.a(a9.d,"_container").jU(0,a1,p)
-case 11:++b
+return A.Q(a0.yB([e[d]]),$async$$1)
+case 13:a=$.la()
+A.a(a9.d,"_container").jU(0,a,q)
+case 11:++d
 s=10
 break
 case 12:return A.Y(null,r)}})
